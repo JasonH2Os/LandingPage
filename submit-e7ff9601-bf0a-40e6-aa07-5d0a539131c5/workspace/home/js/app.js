@@ -298,9 +298,6 @@ backToTop.addEventListener('click',
 );
 
 
-// ... (your existing code)
-
-
 window.addEventListener('scroll', function () {
     for (let section of sections) {
         if (isInViewport(section)) {
